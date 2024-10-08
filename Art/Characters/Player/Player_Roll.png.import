@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ddxs0s5g3d1jh"
-path="res://.godot/imported/spr_idle_strip9.png-a2a245e45207c8b871dc6d22ba33f8fc.ctex"
+uid="uid://bwbyj7hmu1pqq"
+path="res://.godot/imported/Player_Roll.png-f23e726dbde611a1318d48a35c2e5525.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art/Characters/Player/spr_idle_strip9.png"
-dest_files=["res://.godot/imported/spr_idle_strip9.png-a2a245e45207c8b871dc6d22ba33f8fc.ctex"]
+source_file="res://Art/Characters/Player/Player_Roll.png"
+dest_files=["res://.godot/imported/Player_Roll.png-f23e726dbde611a1318d48a35c2e5525.ctex"]
 
 [params]
 

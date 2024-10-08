@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bpwmshwbquloj"
-path="res://.godot/imported/spr_walk_strip8.png-c5473778f4728c15b46245e3942306d7.ctex"
+uid="uid://bofvwyk4tgjn"
+path="res://.godot/imported/Player_Idle.png-c786839faf65a2b1b81a59a782c0bfc9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art/Characters/Player/spr_walk_strip8.png"
-dest_files=["res://.godot/imported/spr_walk_strip8.png-c5473778f4728c15b46245e3942306d7.ctex"]
+source_file="res://Art/Characters/Player/Player_Idle.png"
+dest_files=["res://.godot/imported/Player_Idle.png-c786839faf65a2b1b81a59a782c0bfc9.ctex"]
 
 [params]
 
@@ -23,7 +23,7 @@ compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=false
 mipmaps/limit=-1
-roughness/mode=0
+roughness/mode=1
 roughness/src_normal=""
 process/fix_alpha_border=true
 process/premult_alpha=false

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dshtrfd3cyqm5"
-path="res://.godot/imported/spr_hurt_strip8.png-89b88a9baf8b552b49436d41884feb46.ctex"
+uid="uid://hs0fjqrfll8u"
+path="res://.godot/imported/Player_Walk.png-eecd5d04202ad6cc8c9c2070eef360cf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art/Characters/Player/spr_hurt_strip8.png"
-dest_files=["res://.godot/imported/spr_hurt_strip8.png-89b88a9baf8b552b49436d41884feb46.ctex"]
+source_file="res://Art/Characters/Player/Player_Walk.png"
+dest_files=["res://.godot/imported/Player_Walk.png-eecd5d04202ad6cc8c9c2070eef360cf.ctex"]
 
 [params]
 

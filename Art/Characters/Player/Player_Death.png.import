@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dwsjk4byihgks"
-path="res://.godot/imported/spr_death_strip13.png-35ec3949170230226b0b459f319ead06.ctex"
+uid="uid://3hulr3sehej1"
+path="res://.godot/imported/Player_Death.png-a4eca1fb8e937001ad5148a6fec6bca8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art/Characters/Player/spr_death_strip13.png"
-dest_files=["res://.godot/imported/spr_death_strip13.png-35ec3949170230226b0b459f319ead06.ctex"]
+source_file="res://Art/Characters/Player/Player_Death.png"
+dest_files=["res://.godot/imported/Player_Death.png-a4eca1fb8e937001ad5148a6fec6bca8.ctex"]
 
 [params]
 
