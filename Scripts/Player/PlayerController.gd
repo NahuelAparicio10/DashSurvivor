@@ -1,11 +1,14 @@
 extends Area2D
 
+class_name  PlayerController
+@onready var stats = $PlayerStats #adjust path to where PS is located in the scene tree
+@onready var movement = $PlayerMovement
+@onready var animated_sprite = $AnimatedSprite2D 
 
-# Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	pass # Replace with function body.
+	stats.screen_size = get_viewport_rect().size
 
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
+	movement.move(delta)
 	pass

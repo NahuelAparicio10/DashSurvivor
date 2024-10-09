@@ -1,17 +1,22 @@
 extends Node2D
 
-#Stats variables
-@export var speed: float = 50.0
-@export var maxHealth: float = 100.0
-var _currentHealth: float = 0.0
+class_name PlayerStats
+var screen_size
 
-# Called when the node enters the scene tree for the first time.
+#Stats variables
+@export var speed: float = 500.0
+@export var max_health: float = 100.0
+var _current_health: float = 0.0
+
 func _ready() -> void:
-	_currentHealth = maxHealth;
+	_current_health = max_health;
 	pass # Replace with function body.
 
 func get_current_health() -> float:
-	return _currentHealth;
+	return _current_health;
 
 func get_max_health() -> float:
-	return maxHealth;
+	return max_health;
+
+func get_speed() -> float:
+	return speed;
