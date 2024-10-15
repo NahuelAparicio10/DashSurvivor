@@ -1,13 +1,13 @@
 extends AnimatedSprite2D
-class_name EnemyAnimations
+class_name PlayerAnimations
 
-@onready var player_controller = get_parent()
+@onready var enemy_controller = get_parent()
 
 func _ready() -> void:
 	play()
 
 func _process(delta: float) -> void:
-	var velocity = player_controller.movement.get_velocity()
+	var velocity = enemy_controller.movement.get_velocity()
 	
 	if velocity.x < 0:
 		flip_h = true

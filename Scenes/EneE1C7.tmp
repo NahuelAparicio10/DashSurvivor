@@ -1,10 +1,9 @@
-[gd_scene load_steps=35 format=3 uid="uid://dquu2wtyuul3"]
+[gd_scene load_steps=34 format=3 uid="uid://dquu2wtyuul3"]
 
 [ext_resource type="Script" path="res://Scripts/Enemies/BaseEnemy.gd" id="1_8myo4"]
 [ext_resource type="Texture2D" uid="uid://d2rqgq0cbmkfh" path="res://Art/Characters/Enemies/Skeleton/Skeleton_Death.png" id="1_eo6bx"]
 [ext_resource type="Texture2D" uid="uid://dkjnu1lk05dat" path="res://Art/Characters/Enemies/Skeleton/Skeleton_Hurt.png" id="2_lbv36"]
 [ext_resource type="Texture2D" uid="uid://boeywu0acmdmy" path="res://Art/Characters/Enemies/Skeleton/Skeleton_Walk.png" id="3_gbd5s"]
-[ext_resource type="Script" path="res://Scripts/Enemies/EnemyAnimations.gd" id="5_28x3l"]
 [ext_resource type="Script" path="res://Scripts/Enemies/EnemyMovement.gd" id="5_rau56"]
 [ext_resource type="Script" path="res://Scripts/Enemies/EnemyStats.gd" id="6_hyaj6"]
 
@@ -211,7 +210,6 @@ script = ExtResource("1_8myo4")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_4u32j")
 animation = &"Walk"
-script = ExtResource("5_28x3l")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_0mgoj")

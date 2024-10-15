@@ -18,8 +18,7 @@ func take_damage(value: float) -> void:
 		OnDie.emit()
 
 func heal(value: float) -> void:
-	_current_health += value
-	
+	_current_health += value	
 	if _current_health >= max_health:
 		_current_health = max_health
 

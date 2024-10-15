@@ -9,6 +9,10 @@ signal hit
 func _ready() -> void:
 	stats.screen_size = get_viewport_rect().size
 
+func start(pos):
+	position = pos
+	show()
+	$CollisionShape2D.disabled = false
 
 func _process(delta: float) -> void:
 	movement.move(delta)
