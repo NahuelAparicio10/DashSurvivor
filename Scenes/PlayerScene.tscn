@@ -397,3 +397,11 @@ shape = SubResource("RectangleShape2D_2r3sa")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_0voay")
+
+[node name="ProgressBar" type="ProgressBar" parent="."]
+offset_left = -549.0
+offset_top = -267.0
+offset_right = -545.0
+offset_bottom = -240.0
+
+[connection signal="OnDie" from="PlayerStats" to="AnimatedSprite2D" method="_on_player_stats_on_die"]

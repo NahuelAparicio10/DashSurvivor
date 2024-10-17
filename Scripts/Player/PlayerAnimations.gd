@@ -18,3 +18,7 @@ func _process(delta: float) -> void:
 		animation = "Walk"
 	else:
 		animation = "Idle"
+
+
+func _on_player_stats_on_die() -> void:
+	animation = "Die"

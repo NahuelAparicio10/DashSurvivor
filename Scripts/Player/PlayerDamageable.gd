@@ -10,6 +10,6 @@ func _process(delta: float) -> void:
 	pass
 
 func _on_body_entered(body):
-	hide()
+	print("Hello")
 	OnHit.emit()
 	#$CollisionShape2D.set_deferred("disable", true)
